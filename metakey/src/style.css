@@ -1,0 +1,148 @@
+body{
+	background-color: white;
+}
+
+h1,p {
+font-family: 'Bubble';
+color: gray;
+letter-spacing: 1px;
+}
+
+
+.admin-sidebar{
+ /* Set the position to fixed, so it sticks to the side of the page */
+ position: fixed;
+
+ /* Set the top position to 0, so it sticks to the top of the page */
+
+
+ /* Add additional styles, such as the height and width of the navbar */
+ height: 100%;
+ width: 12%;
+ background: #486cd9;
+
+ box-shadow:3px 3px 10px  grey;
+
+}
+
+.navbar-title{
+	padding-bottom: 10%;
+
+	display: grid;
+	place-items:center;
+}
+
+.navbar-title img {
+	width: 80%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.admin-sidenav li {
+	text-align: justify;
+	padding-left: 2rem;
+	transition: all 0.2s linear;
+	background: #486cd9;
+
+	margin-top: 20%;
+	
+
+}
+.admin-sidenav li a {
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Helvetica';
+	font-size: 15px;
+	font-weight: 400;
+	text-align: center;
+}
+.admin-sidenav li a:active {
+	border-color: #264746;
+
+}
+
+.admin-sidenav li:active {
+	border-color: #02d3f5;
+}
+
+.Main{
+	margin-left: 15%;
+padding-top: 1.5%;
+}
+
+.card-title{
+	font-weight:bold;
+	font-size:25px;
+	color: #486cd9;
+	margin-top: 3%;
+	margin-bottom: 2%;
+
+	
+}
+
+.Main .card{
+	box-shadow:5px 5px 10px  grey;
+	width:90%;
+	
+	
+}
+
+.welcome{
+width:100%
+}
+
+
+.bar_holders{
+	margin-left: 3%;
+}
+
+.bar_holders .card{
+	width: 90%;
+	height: 40vh;
+	margin-top: 4%;
+}
+
+
+.bar_holders p {
+	font-size: 20px;
+	margin-top: 1%;
+}
+
+.bottom_charts{
+	margin-top: 3%;
+}
+
+
+.right_card{
+
+	margin-left:5%;
+	margin-top:3%
+}
+
+
+.Histogram{
+	margin-left: 3%;
+	margin-top: 3%;
+}
+
+.Histogram .card{
+	width: 90%;
+	height: 33vh;
+	margin-top: 4%;
+}
+
+
+.Histogram p{
+	font-size: 20px;
+	margin-top: 1%;
+}
+
+.Pie .card {
+	height: 45vh;
+	width: 85%;
+}
+
+.Pie{
+	margin-top: 5%;
+}
